@@ -13,7 +13,7 @@ public class File01 {
 			bw.write("1234567890");
 			bw.newLine();
 			bw.write("１２３４５６７８９０");
-		} catch (IOException e) {
+		} catch (IOException e) { 
 			e.printStackTrace();
 		}
 	}
